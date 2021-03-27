@@ -1,8 +1,8 @@
 {
-  "cohesion" : "95.27%",
+  "cohesion" : "95.33%",
   "meets_threshold" : true,
   "minimum_threshold" : "80%",
-  "report_date" : "2021-03-12 14:56:14",
+  "report_date" : "2021-03-27 13:44:33",
   "result" : [
     {
       "cohesion" : "100.00%",
@@ -67,24 +67,6 @@
             {
               "cohesion" : "100.00",
               "methodType" : "Public",
-              "name" : "append(fileURL: URL) throws ",
-              "properties" : [
-
-              ]
-            }
-          ],
-          "name" : "Data ",
-          "properties" : [
-
-          ],
-          "type" : "Extension"
-        },
-        {
-          "cohesion" : "100.00",
-          "methods" : [
-            {
-              "cohesion" : "100.00",
-              "methodType" : "Public",
               "name" : "appendLine(to file: Path) throws ",
               "properties" : [
 
@@ -112,6 +94,24 @@
             }
           ],
           "name" : "String ",
+          "properties" : [
+
+          ],
+          "type" : "Extension"
+        },
+        {
+          "cohesion" : "100.00",
+          "methods" : [
+            {
+              "cohesion" : "100.00",
+              "methodType" : "Public",
+              "name" : "append(fileURL: URL) throws ",
+              "properties" : [
+
+              ]
+            }
+          ],
+          "name" : "Data ",
           "properties" : [
 
           ],
@@ -801,26 +801,6 @@
         {
           "cohesion" : "100.00",
           "methods" : [
-
-          ],
-          "name" : "Command",
-          "properties" : [
-            {
-              "keyword" : "let",
-              "name" : "command",
-              "propertyType" : "instance"
-            },
-            {
-              "keyword" : "let",
-              "name" : "arguments",
-              "propertyType" : "instance"
-            }
-          ],
-          "type" : "Struct"
-        },
-        {
-          "cohesion" : "100.00",
-          "methods" : [
             {
               "cohesion" : "100.00",
               "methodType" : "Public",
@@ -847,6 +827,26 @@
 
           ],
           "type" : "Extension"
+        },
+        {
+          "cohesion" : "100.00",
+          "methods" : [
+
+          ],
+          "name" : "Command",
+          "properties" : [
+            {
+              "keyword" : "let",
+              "name" : "command",
+              "propertyType" : "instance"
+            },
+            {
+              "keyword" : "let",
+              "name" : "arguments",
+              "propertyType" : "instance"
+            }
+          ],
+          "type" : "Struct"
         }
       ],
       "filename" : "Sources/CoherentSwiftCore/Helpers/Bash.swift",
@@ -1574,19 +1574,24 @@
       "meets_threshold" : true
     },
     {
-      "cohesion" : "80.38%",
+      "cohesion" : "82.16%",
       "definitions" : [
         {
-          "cohesion" : "80.38",
+          "cohesion" : "82.16",
           "methods" : [
             {
-              "cohesion" : "40.00",
+              "cohesion" : "66.67",
               "methodType" : "Public",
               "name" : "parse(with configuration: Configuration, parentPath: Path) throws ",
               "properties" : [
                 {
                   "keyword" : "let",
                   "name" : "absoluteSourcePaths",
+                  "propertyType" : "instance"
+                },
+                {
+                  "keyword" : "let",
+                  "name" : "validAbsoluteSourcePaths",
                   "propertyType" : "instance"
                 }
               ]
